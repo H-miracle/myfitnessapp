@@ -1,0 +1,46 @@
+.main__header {
+   width: 100vw;
+   height: calc(100vh - 5rem);
+   display: grid;
+   place-items: center;
+   margin-top: 5rem;
+   
+}
+.main__header-container {
+   grid-template-columns: 1fr 1fr;
+   gap: 6rem;
+   display: grid;
+   align-items: center;
+   justify-content: space-between;
+}
+.main__header-left {
+   margin-top: -3rem;
+   text-transform: capitalize;
+}
+.main__header-left h4 {
+   margin-bottom: 1rem;
+   color: var(--color-secondary);
+   font-weight: 400;
+}
+.main__header-left p {
+   margin: 1rem 0 3rem ;
+}
+.main__header-right {
+   display: grid;
+   place-items: center;
+   position: relative;
+}
+.main__header-right img {
+   height: 28rem;
+}
+.main__header-circle {
+   width: 22rem;
+   height: 22rem;
+   position: absolute;
+   background: linear-gradient(75deg, var(--color-secondary), transparent);
+   border-radius: 50%;
+   filter: blur(15px);
+}
+.main__header-image {
+   position: relative;
+}
