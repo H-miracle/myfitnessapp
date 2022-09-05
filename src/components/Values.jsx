@@ -24,7 +24,7 @@ const Values = () => {
                <div className="values__wrapper">
                   {
                      values.map(({id, title, desc,icon}) => {
-                        return <Card className='values__value'>
+                        return <Card className='values__value' key={id}>
                            <span>{icon}</span>
                            <h4>{title}</h4>
                            <small>{desc}</small>
